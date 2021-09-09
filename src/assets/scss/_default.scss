@@ -1,5 +1,5 @@
 @import "variables";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=ZCOOL+KuaiLe&display=swap');
 
 body {
   background-color: $bg-secondary-color;
@@ -30,6 +30,10 @@ button.btn {
   height: 89px;
   cursor: pointer;
 
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+
   a {
     font-weight: 500;
     font-size: 36px;
@@ -37,7 +41,11 @@ button.btn {
   }
 }
 
-.form input {
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-group input.text-input {
   border-radius: 8px;
   padding: 11px 18px;
   background-color: $secondary-color;
@@ -51,5 +59,11 @@ button.btn {
 
   &:focus, &:hover {
     border: 1px solid #FF9900;
+  }
+}
+
+.input-group .text-input {
+  &:not(:first-child) {
+    margin-top: 36px;
   }
 }
