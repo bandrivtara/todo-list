@@ -14,7 +14,7 @@ export const Login = () => {
                 </a>
             </button>
             <p>or</p>
-            <button className="btn-create-account">
+            <button className="btn-transparent">
                 <a href="">create an account</a>
             </button>
         </div>

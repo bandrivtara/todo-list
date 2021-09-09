@@ -1,0 +1,51 @@
+.auth-card {
+  width: 100%;
+  max-width: 893px;
+  height: 1045px;
+  margin: 100px auto 263px auto;
+  border-radius: 8px;
+  background-color: $bg-primary-color;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  padding: 70px 148px 70px 145px;
+
+  .btn-transparent {
+    margin-top: 63px;
+  }
+
+  h2 {
+    margin-bottom: 187px;
+  }
+
+  .btn {
+    margin: 64px 0;
+  }
+}
+
+.icon-box {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.register-container {
+  position: relative;
+
+  h2 {
+    margin: 78px auto 101px auto;
+  }
+
+  .input-group {
+    padding: 0 147px 98px 146px;
+  }
+}
